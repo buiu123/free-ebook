@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: linear-gradient( #0096cf, #0071c7);
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.texto img {
+    width: auto;
+}
+.titulo {
+    margin-top: 15px;
+    color: white;
+    text-align: left;
+ 
+    
+}
+.titulo h1 {
+    font-size: 29px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.linha {
+    border-bottom: 2px solid white;
+
+}
+.fundo {
+    width: 920px;
+    transform: scale(1.1);
+}
+.copyChamada {
+    display: flex;
+    padding-top: 34px;
+}
+.texto {
+    flex: 1;
+ 
+    padding-right: 14px;
+    color: white;
+}
+
+.texto h2 {
+    padding-top: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    line-height: 1.2;
+}
+.texto h3 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+ 
+}
+.caixaDownload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: linear-gradient(-70deg,#005996, #006797);
+    height: 510px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.caixaDownload h2 {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 45px;
+ 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8px;
+    width: 240px;
+}
+
+.inputField input {
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    padding-left: 10px;
+    
+}
+
+button {
+    margin-bottom: 12px;
+    background-color: #ff8e00;
+    color: white;
+    width: 204px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.iconesBotoes {
+    padding-left: 5px;
+    width: 170px;
+    height: 21px;
+    cursor: pointer;
+}
+
+@media (max-width: 920px) {
+    .fundo {
+        width: 760px;
+    }
+    .caixaDownload h2 {
+       width: 200px;
+       text-align: center;
+       padding-bottom: 20px;
+     
+    }
+    .titulo h1 {
+        margin-bottom: 11px;
+    }
+}
+
+@media (max-width: 760px) {
+    .fundo {
+        width: 660px;
+    }
+    .caixaDownload h2 {
+       width: 200px;
+       text-align: center;
+       padding-bottom: 20px;
+    }
+    
+    .titulo h1 {
+        margin-bottom: 11px;
+        text-align: center;
+        font-size: 38px;
+   
+    }
+    .copyChamada {
+        flex-direction: column;
+        align-items: center;
+        }
+    .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .texto img {
+        padding-top: 40px;
+  
+    }
+    .texto h2 {
+        font-size: 28px;
+    }
+    .texto h3 {
+        font-size: 18px;
+    }
+  .caixaDownload {
+      width: 500px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 630px) {
+    
+}
